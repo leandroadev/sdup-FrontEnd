@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+table#tabelaArquivos {
+	/*border-bottom: 1px solid #cccccc;*/
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+table#tabelaArquivos td {
+	border-bottom: 1px solid #cccccc;
+	padding: 10px;
+}
+
+table#tabelaArquivos td.tbcabecalho {
+	background-color: #036DB6;
+	color: #ffffff;
+	font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Sistema de Download e Upload - Front-end - Editar Arquivos</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="_css/style.css" />
+		<link rel="stylesheet" type="text/css" href="_css/editar_arquivos.css" />
+	</head>
+	<body>
+		<header id="cabecalho">
+			<hgroup>
+				<h1><a href="principal.html">Sistema de Download e Upload</a></h1>
+				<h2><a href="login.html">Sair</a></h2>
+			</hgroup>
+		</header>
+		<nav id="menu">
+			<ul>
+				<li><a href="principal.html">Principal</a></li>
+				<li><a href="arquivos.html" class="action">Arquivos</a></li>
+				<li><a href="enviar_arquivos.html">Enviar arquivos</a></li>
+				<li><a href="usuarios.html">Usuários</a></li>
+				<li><a href="cadastrar_usuarios.html">Cadastrar usuários</a></li>
+			</ul>
+		</nav>
+		<section id="corpo">
+			<h2>Editar Arquivos</h2>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<fieldset>
+				<form action="" method="post">
+					<p><label for="idNome">Nome do Arquivo</label></p>
+					<p><input class="text" type="text" name="nome" id="idNome" size="25" maxlength="40" placeholder="Preencha com o nome do arquivo" required="required" /></p>
+					<p><label for="idArquivo">Arquivo</label></p>
+					<p><input type="file" name="enviarArquvivo" id="idArquivo" /></p>
+					<p><input class="inputButton inputSubmit" type="submit" name="atualizar" value="Atualizar" /><input class="inputButton inputReset" type="reset" name="limpar" value="Limpar" /><a href="arquivos.html" class="btnCancelar btnCancelarRed">Cancelar</a></p>
+				</form>
+			</fieldset>
+		</section>
+		<footer id="rodape">
+			<p>Copyright &copy; 2016</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Sistema de Download e Upload - Front-end - Login</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="_css/style.css" />
+		<link rel="stylesheet" type="text/css" href="_css/login.css" />
+	</head>
+	<body>
+		<header id="cabecalho">
+			<h1><a href="principal.html">Sistema de Download e Upload</a></h1>
+		</header>
+		<section id="loginCorpo">
+			<fieldset id="login">
+				<form id="formLogin" method="post" action="principal.html">
+					<h2>Acesso</h2>
+					<p><label for="cUsuario">Usuário</label></p>
+					<p><input type="text" name="tUsuario" id="cUsuario" size="25" maxlength="20" placeholder="Preencha com o nome de usuário" required="required" /></p>
+					<p><label for="cSenha">Senha</label></p>
+					<p><input type="password" name="tSenha" id="cSenha" size="25" minlength="8" maxlength="18" placeholder="Preencha com a senha" required="required" /></p>
+					<input class="inputButton inputSubmit" type="submit" name="acessar" value="Acessar" />
+				</form>
+			</fieldset>
+		</section>
+		<footer id="loginRodape">
+			<p>Copyright &copy; 2016</p>
+		</footer>
+	</body>
+</html>

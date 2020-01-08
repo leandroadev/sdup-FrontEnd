@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+fieldset {
+	border: 1px solid #cccccc;
+	padding: 20px;
+}
+
+input.inputSubmit {
+	margin-right: 4px;
+	background-color: #036DB6;
+	color: #ffffff;
+	border: 1px solid #036DB6;
+	box-shadow: 1px 1px 2px #036DB6;
+}
+
+input.inputSubmit:hover {
+	background-color: #03578F;
+	border-color: #03578F;
+	box-shadow: 1px 1px 2px #03578F;
+}
+
+input.inputSubmit:active {
+	box-shadow: none;
+}
+
+input.inputReset {
+	margin-left: 4px;
+	margin-right: 4px;
+	background-color: #FF8C00;
+	color: #ffffff;
+	border: 1px solid #FF8C00;
+	box-shadow: 1px 1px 2px #FF8C00;
+}
+
+input.inputReset:hover {
+	background-color: #ff9702;
+	border: 1px solid #ff9702;
+	box-shadow: 1px 1px 2px #ff9702;
+}
+
+input.inputReset:active {
+	box-shadow: none;
+}
+
+a.btnCancelarRed {
+	margin-left: 4px;
+	background-color: #DC143C;
+	color: #ffffff;
+	border: 1px solid #DC143C;
+	box-shadow: 1px 1px 2px #DC143C;
+}
+
+a.btnCancelarRed:hover {
+	background-color: #f60633;
+	border: 1px solid #f60633;
+	box-shadow: 1px 1px 2px #f60633;
+}
+
+a.btnCancelarRed:active {
+	box-shadow: none;
+}
